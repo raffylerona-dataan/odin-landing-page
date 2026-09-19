@@ -168,3 +168,47 @@ nav a {
     margin-top: 10px;
     margin-bottom: 0;
 }
+
+
+.call-to-action {
+    padding: 100px 40px;
+}
+.cta-container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    background-color: #3882f6;
+    border-radius: 8px;
+
+    padding: 50px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-text h3 {
+    color: #f9faf8;
+    font-size: 24px;
+
+    margin: 0;
+}
+.cta-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+
+    margin: 5px 0 0;
+}
+.cta-button {
+    background-color: #3882f6;
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 8px;
+
+    padding: 8px 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
