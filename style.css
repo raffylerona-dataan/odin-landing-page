@@ -137,3 +137,34 @@ nav a {
     font-size: 18px;
     margin-top: 8px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 40px;
+}
+
+.quote-container {
+    max-width: 850px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+
+    margin: 0;
+}
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+
+    align-self: flex-end;
+
+    margin-top: 10px;
+    margin-bottom: 0;
+}
